@@ -54,6 +54,8 @@
 | `Give Feedback` / `Provide Feedback` | `提供反馈` | `Send Feedback` -> `发送反馈` |
 | `Voice mode` / `Microphone` / `Volume` | `语音模式` / `麦克风` / `音量` | 语音设置项统一译法 |
 | `Interface Layout` / `Verbose` | `界面布局` / `详细` | `Default` -> `默认`，`Turbo` -> `极速` |
+| `Orchestrator` / `Executor` | `编排器` / `执行器` | 模型设置中多智能体角色统一译法 |
+| `Sound` | `声音` | 通知设置声音分组标题，与 `启用智能体的声音通知` 对齐 |
 
 ---
 

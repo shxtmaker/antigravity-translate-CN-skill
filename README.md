@@ -7,12 +7,18 @@
 ```text
 antigravity-translate-CN-skill/
 ├── SKILL.md                       # 技能主指令（支持 /cn 与截图漏译触发）
+├── dicts/
+│   └── page_settings_supplement.json  # 设置页补充汉化词典（47 条新增词条）
 ├── references/
 │   └── dictionary_guide.md        # 词典分包、标点 1:1 对齐与术语规范
 └── scripts/
     ├── status.js                  # 跨平台环境、app.asar 与进程状态诊断
     └── check_dicts.js             # 词典检索 (--search) 与质量校验脚本
 ```
+
+## 补充词典同步方式
+
+`dicts/page_settings_supplement.json` 收录了设置页（通用、外观、浏览器、模型与用量、通知设置）新增补的 47 条简体中文词条。由于 `antigravity-desktop-cn` 引擎会自动按文件名顺序加载 `dicts/*.json`，将本文件复制到 `~/.gemini/antigravity/scratch/antigravity-desktop-cn/dicts/` 并重新运行安装脚本即可生效。
 
 ## 安装方式
 
